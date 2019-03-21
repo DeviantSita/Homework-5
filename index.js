@@ -21,7 +21,7 @@ function setSize(size) {
 function inflation(event) 
 {
 // Grow balloon
-  if (event.keyCode === 38) 
+  if (event.keyCode === 107) 
   {
     currentSize += increment;
     setSize(currentSize);
@@ -32,7 +32,7 @@ function inflation(event)
     }
   } 
 // Shrink balloon
-  else if (event.keyCode === 40) 
+  else if (event.keyCode === 109) 
   {
     currentSize -= increment;
     setSize(currentSize);
